@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>Collage</title>
+        
+    </head>
+    <body>
+        <style>
+            *,
+*::after,
+*::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit; 
+}
+           html{
+               box-sizing:border-box;
+               font-size: 62.5%;
+           }
+           body{
+               font-family:  "Nunito", sans-serif;
+               background-color:rgb(20, 18, 18);
+               font-weight:300;
+               line-height:1.6;
+               
+           }
+           .container{
+               width:70%;
+               margin: 2rem auto;
+           }
+           .pics{
+               display: grid;
+               grid-template-columns: repeat(10,1fr);
+               grid-template-rows: repeat(10,5vw);
+               grid-gap: 0.5rem;
+           }
+           .gal img{
+               width: 100%;
+               height: 100%;
+               object-fit: cover;
+               display: block;
+               
+           }
+           .gal1{
+               grid-column-start: 1;
+               grid-column-end: 4;
+               grid-row-start: 1;
+               grid-row-end: 5;
+           }
+           .gal2{
+               grid-column-start: 4;
+               grid-column-end: 7;
+               grid-row-start: 1;
+               grid-row-end: 4;
+           }
+           .gal3{
+               grid-column-start: 7;
+               grid-column-end: 11;
+               grid-row-start: 1;
+               grid-row-end: 3;
+           }
+           .gal4{
+               grid-column-start: 1;
+               grid-column-end: 4;
+               grid-row-start: 5;
+               grid-row-end: 9;
+           }
+           .gal5{
+               grid-column-start: 4;
+               grid-column-end: 7;
+               grid-row-start: 4;
+               grid-row-end: 8;
+           }
+           .gal6{
+               grid-column-start: 7;
+               grid-column-end: 10;
+               grid-row-start: 3;
+               grid-row-end: 6;
+           }
+           .gal7{
+               grid-column-start: 10;
+               grid-column-end: 11;
+               grid-row-start: 3;
+               grid-row-end: 6;
+           }
+           
+           .gal8{
+               grid-column-start: 7;
+               grid-column-end: 11;
+               grid-row-start: 6;
+               grid-row-end:8;
+           }
+           .gal9{
+                grid-column-start: 1;
+                grid-column-end: 4;
+                grid-row-start: 9;
+                grid-row-end: 11;
+           }
+           .gal10{
+                grid-column-start: 4;
+                grid-column-end: 7;
+                grid-row-start: 8;
+                grid-row-end: 11;
+           }
+           .gal11{
+                grid-column-start: 7;
+                grid-column-end: 11;
+                grid-row-start: 8;
+                grid-row-end: 11;
+           }
+           
+           
+          
+       </style>
+        <div class="container">
+            <div class="pics">
+                <figure class="gal gal1">
+                    <img src="https://media.istockphoto.com/id/1416892302/photo/colored-candies-on-yellow-background.webp?b=1&s=170667a&w=0&k=20&c=Xwdp7k-5xy53nF5dqTIqjat8QLbc7IpKiKjhDpJfoWY=" class="gal_img" alt="img_1">
+                </figure>
+                <figure class="gal gal2">
+                    <img src="https://media.istockphoto.com/id/1346720025/photo/glass-jar-spilling-candies-on-blue-background.webp?b=1&s=170667a&w=0&k=20&c=exDWHTFHnA6Pb_dMP3w8jSyB6dpKjyn-qICRQqG-EbU=" class="gal_img" alt="img_2">
+                </figure>
+                <figure class="gal gal3">
+                    <img src="https://media.istockphoto.com/id/1270389595/photo/assortment-of-multicolored-candies-jelly-beans-and-lollipops-background.webp?b=1&s=170667a&w=0&k=20&c=JEBI13fSRaf2G7bDqKnfkzl65pDmR1Od_Oi2KCsW3Fw=" class="gal_img" alt="img_3">
+                </figure>
+                <figure class="gal gal4">
+                    <img src="https://images.unsplash.com/photo-1575224300306-1b8da36134ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuZHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" class="gal_img" alt="img_4">
+                </figure>
+                <figure class="gal gal5">
+                    <img src="https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FuZHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" class="gal_img" alt="img_5">
+                </figure>
+                <figure class="gal gal6">
+                    <img src="https://plus.unsplash.com/premium_photo-1667031518595-9cb4b0d504ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNob2NvbGF0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" class="gal_img" alt="img_6">
+                </figure>
+                <figure class="gal gal7">
+                    <img src="https://images.unsplash.com/photo-1558326567-98ae2405596b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uZmVjdGlvbmVyeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" class="gal_img" alt="img_7">
+                </figure>
+                <figure class="gal gal8">
+                    <img src="https://plus.unsplash.com/premium_photo-1663839539480-d3eefd082973?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbmZlY3Rpb25lcnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" class="gal_img" alt="img_8">
+                </figure>
+                <figure class="gal gal9">
+                    <img src="https://media.istockphoto.com/id/1456999457/photo/easter-eggs-on-blue-background.webp?b=1&s=170667a&w=0&k=20&c=vSPIaJDT4vSHxfjGkCF38l4METLjjMW5zQJ0w9L32dg=" gal_img" alt="img_9">
+                </figure>
+                <figure class="gal gal10">
+                    <img src="https://images.unsplash.com/photo-1610562275255-03b7fa0d4655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGljaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" gal_img" alt="img_10">
+                </figure>
+                <figure class="gal gal11">
+                    <img src="https://media.istockphoto.com/id/1248945611/photo/homemade-orange-and-plum-popsicles-on-gray-background-top-view-with-plum-and-orange-pieces.webp?b=1&s=170667a&w=0&k=20&c=FsmIYB8zPUzZsA3c_OXKNSIEFxb7P4T9xbhM7o6FDP0=" gal_img" alt="img_10">
+                </figure>
+                
+            </div>
+        </div>
+    </body>
+</html>
